@@ -1,0 +1,60 @@
+[
+  {
+    "customerId": "104188",
+    "city": "Buenos Aires",
+    "email": "karthik.gunasekaran3@wipro.com",
+    "firstName": "Karthik",
+    "lastName": "Gunasekaran",
+    "phone": "9585491902",
+    "phoneType": "mobile",
+    "postalCode": "600044",
+    "birthDate": "2017-11-23",
+    "partyID": "1",
+    "externalReference": "none",
+    "serialNumber": [
+      {
+        "number": "1",
+        "type": "none"
+      }
+    ],
+    "smartCard": "smartcard",
+    "countryCode": "AR",
+    "notes": "note",
+    "customerType": "type",
+    "characteristic": [
+      {
+        "name": "none",
+        "value": "none"
+      }
+    ]
+  },
+  {
+    "customerId": "200",
+    "city": "Santa Marta",
+    "email": "anil.paingankar@wipro.com",
+    "firstName": "Anil",
+    "lastName": "Paingankar",
+    "phone": "7022976437",
+    "phoneType": "mobile",
+    "postalCode": "600012",
+    "birthDate": "2000-11-23",
+    "partyID": "2",
+    "externalReference": "none",
+    "serialNumber": [
+      {
+        "number": "2",
+        "type": "none"
+      }
+    ],
+    "smartCard": "smartcard",
+    "countryCode": "CO",
+    "notes": "note",
+    "customerType": "type",
+    "characteristic": [
+      {
+        "name": "none",
+        "value": "none"
+      }
+    ]
+  }
+]
