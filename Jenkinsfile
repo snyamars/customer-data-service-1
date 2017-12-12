@@ -52,7 +52,7 @@ node {
     
     stage 'notifyKubernetes'
      try{
-      sh "kubectl delete deployment customer-data-service"
+      sh "kubectl delete deployment customer-data-service1"
    }catch(e){
       println("no prior deployment exists")
    }
