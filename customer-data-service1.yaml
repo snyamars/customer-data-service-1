@@ -10,6 +10,7 @@ spec:
    - port: 8090
      targetPort: 8090
      nodePort: 32445
-     
+ externalIPs:
+ - 35.153.120.120
  selector:
    name: customer-data-service1
