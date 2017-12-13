@@ -59,7 +59,8 @@ node {
    }
    sh "sleep 3s"
    sh "kubectl run --image=snyamars007/customer-data-service:latest customer-data-service1  --port=8090"
-   sh "kubectl expose deployment customer-data-service1 --type=NodePort "
+   //sh "kubectl expose deployment customer-data-service1 --type=NodePort "
+    sh "kubectl create -f customer-data-service1.yaml"
     
 
 }
