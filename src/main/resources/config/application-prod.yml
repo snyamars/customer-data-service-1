@@ -25,6 +25,8 @@ spring:
     cloud:
         consul:
             discovery:
+               healthCheckPath: /management/health
+               healthCheckInterval: 15s
                prefer-ip-address: false
             host: ec2-54-85-196-173.compute-1.amazonaws.com
             #host: localhost
