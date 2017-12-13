@@ -11,4 +11,4 @@ VOLUME /tmp
 EXPOSE 8090
 CMD echo "The application will start in ${JHIPSTER_SLEEP}s..." && \
     sleep ${JHIPSTER_SLEEP} && \
-    java -Pprod -Djava.security.egd=file:/dev/./urandom -jar /app.war
+    java -Djava.security.egd=file:/dev/./urandom -jar /app.war
