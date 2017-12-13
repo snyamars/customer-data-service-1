@@ -2,15 +2,14 @@ apiVersion: v1
 kind: Service
 metadata:
  name: customer-data-service1
- labels:
-   name: customer-data-service1
+ #labels:
+ #  name: customer-data-service1
 spec:
  type: NodePort
  ports:
    - port: 8090
      targetPort: 8090
      nodePort: 32445
- externalIPs:
- - 35.153.120.120
+ 
  selector:
    name: customer-data-service1
