@@ -63,6 +63,7 @@ liquibase:
     contexts: prod
 
 server:
+    server.address: ec2-35-153-120-120.compute-1.amazonaws.com
     port: 8090
     compression:
         enabled: true
