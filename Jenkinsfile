@@ -67,6 +67,6 @@ node {
    //sh "kubectl expose deployment customer-data-service1 --type=NodePort "
     sh "kubectl expose deployment customer-data-service1"
    // sh "kubectl create -f customer-data-service1.yaml"
-    
+    //Test check
 
 }
