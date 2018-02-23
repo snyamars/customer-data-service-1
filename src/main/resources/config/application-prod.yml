@@ -27,10 +27,10 @@ spring:
             discovery:
                healthCheckPath: /management/health
                healthCheckInterval: 15s
-               hostname: ec2-35-153-120-120.compute-1.amazonaws.com
+               hostname: ec2-35-172-8-63.compute-1.amazonaws.com
                port: 80
                prefer-ip-address: false
-            host: ec2-54-85-196-173.compute-1.amazonaws.com
+            host: ec2-35-172-8-63.compute-1.amazonaws.com
             #host: localhost
             port: 8500
     datasource:
@@ -118,7 +118,7 @@ jhipster:
     logging:
         logstash: # Forward logs to logstash over a socket, used by LoggingConfiguration
             enabled: true
-            host: ec2-52-1-246-99.compute-1.amazonaws.com
+            host: ec2-35-168-240-120.compute-1.amazonaws.com
             port: 5000
             queue-size: 512
         spectator-metrics: # Reports Spectator Circuit Breaker metrics in the logs
